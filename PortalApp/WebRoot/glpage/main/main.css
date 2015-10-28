@@ -1,0 +1,131 @@
+
+#main {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+#leftdiv {
+    background: none repeat scroll 0 0 #272C2F;
+    border-right: 1px solid #272C2F;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 250px;
+}
+
+#rightdiv {
+    bottom: 0;
+    left: 251px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#lefttop {
+    border-bottom: 1px solid #000000;
+    height: 85px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#userphoto {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CDCDCD;
+    height: 60px;
+    left: 17px;
+    position: absolute;
+    top: 8px;
+    width: 60px;
+}
+
+#userphoto img {
+    height: 100%;
+    width: 100%;
+}
+
+#usermsg {
+    color: #E8E8E8;
+    font-weight: bold;
+    left: 97px;
+    position: absolute;
+    top: 12px;
+}
+
+#usernamediv{
+	color: #BFBFBF;
+    font-size: 13px;
+}
+
+#lefttools {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #5B5B5B;
+    height: 31px;
+    left: 3px;
+    position: absolute;
+    right: 2px;
+    top: 86px;
+}
+
+#lefttools input {
+    border: medium none;
+    height: 93%;
+    left: 3px;
+    position: absolute;
+    top: 0px;
+    width: 85%;
+}
+
+#lefttools img {
+    display: inline-block;
+    float: right;
+    margin-right: 8px;
+    margin-top: 8px;
+    width: 16px;
+}
+#leftmenu {
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+    top: 121px;
+}
+
+#righttab {
+    background: none repeat scroll 0 0 #272C2F;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#tabs {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.ac_results {
+    background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    border-radius: 0;
+    left: 0 !important;
+    overflow: hidden;
+    padding: 0;
+    top: 31px !important;
+    width: 243px !important;
+    z-index: 99999;
+}
+.ac_over {
+    background-color: #777878;
+    color: #FFFFFF;
+}

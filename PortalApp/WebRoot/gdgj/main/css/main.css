@@ -1,0 +1,188 @@
+@CHARSET "UTF-8";
+
+.main {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #FBFBFB;
+    overflow: hidden;
+}
+
+.top {
+    border-bottom: 1px solid #EAF8E9;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.top_tt {
+    background: #5094D3;
+    border-bottom: 2px solid #69D2EA;
+    color: #F8F8F8;
+    font-size: 13px;
+    height: 28px;
+    left: 0;
+    position: relative;
+    top: 0;
+}
+.top_t {
+    background: #5094D3;
+    color: #F8F8F8;
+    font-size: 13px;
+    height: 28px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    width: 1055px;
+}
+.tooldiv_s {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top,  #FFFFFF 0%, #F2F2F2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F2F2F2));
+    background: -webkit-linear-gradient(top,  #FFFFFF 0%,#F2F2F2 100%);
+    background: -o-linear-gradient(top,  #FFFFFF 0%,#F2F2F2 100%);
+    background: -ms-linear-gradient(top,  #FFFFFF 0%,#F2F2F2 100%);
+    background: linear-gradient(to bottom,  #FFFFFF 0%,#F2F2F2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F2F2F2',GradientType=0 );
+}
+.tooldiv {
+    height: 51px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    width: 1055px;
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top,  #FFFFFF 0%, #F2F2F2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#F2F2F2));
+    background: -webkit-linear-gradient(top,  #FFFFFF 0%,#F2F2F2 100%);
+    background: -o-linear-gradient(top,  #FFFFFF 0%,#F2F2F2 100%);
+    background: -ms-linear-gradient(top,  #FFFFFF 0%,#F2F2F2 100%);
+    background: linear-gradient(to bottom,  #FFFFFF 0%,#F2F2F2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F2F2F2',GradientType=0 );
+}
+.top_fw {
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    top: 5px;
+}
+.top_logout {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+.iframetab {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height:auto;
+}
+
+.top_menus {
+    bottom: 0;
+    left: 198px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.top_menu_li {
+    color: #525252;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 0;
+    margin-right: 2px;
+}
+.top_menu_li:hover{
+	background: #7CB1E1;
+    border-bottom: 3px solid #6E94C1;
+    color: #FCFCFC;
+    transition:color 0.2s ease 0.1s;
+}
+
+.top_menu_li_click {
+    background: #7CB1E1;
+    border-bottom: 3px solid #6E94C1;
+    color: #FCFCFC;
+}
+.top_menu_li > span {
+    position: relative;
+    top: 15px;
+}
+
+.logodiv {
+    background-image: url("../image/logo3.png");
+    background-repeat: no-repeat;
+    height: 37px;
+    left: 0px;
+    position: absolute;
+    top: 7px;
+    width: 187px;
+}
+
+.maincontent {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 81px;
+}
+
+.bottom {
+    background: #F5F5F5;
+    border-top: 1px solid #C6C6E7;
+    bottom: 0;
+    height: 25px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.bottom_b {
+    color: #BCBCBE;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 4px;
+    width: 1055px;
+}
+.bottom_d {
+    left: 386px;
+    position: absolute;
+    text-align: center;
+}
+
+.top_loguser {
+    position: absolute;
+    right: 48px;
+    top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

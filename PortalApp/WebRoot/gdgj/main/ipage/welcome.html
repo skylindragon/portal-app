@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>欢迎页面</title>
+<link rel="stylesheet" type="text/css" href="../js/jquery-ui/css/cupertino/jquery-ui-1.8.16.custom.css">
+<link rel="stylesheet" type="text/css" href="../css/default.css">
+<link rel="stylesheet" type="text/css" href="welcome.css">
+<script type="text/javascript" src="../js/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="../js/jquery-ui/jquery-ui-1.8.16.custom.js"></script>
+<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+<script type="text/javascript" src="../js/json/jquery.json-2.2.js"></script>
+<script type="text/javascript" src="../js/json/json2.js"></script>
+<script type="text/javascript" src="../js/json/jsonpath-0.8.0.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/jsondata.js"></script>
+<script type="text/javascript" src="welcome.js"></script> 
+</head>
+<body>
+<div class="wel_main">
+	<div class="wel_topimg">
+		<div id="images" class="images">
+            <div id="img0" class="imgdiv imgdivshow" style="display:block;">
+                <!-- <img src="image/welcome.png" class="imgdivA"></img> -->
+            </div>
+            <div id="img1" class="imgdiv" style="display:none;">
+               <!--  <img src="image/welcome1.jpg" class="imgdivA"></img> -->
+            </div>
+            <div id="img2" class="imgdiv" style="display:none;">
+                <!-- <img src="image/welcome2.jpg" class="imgdivA"></img> -->
+            </div>
+            <div id="img3" class="imgdiv" style="display:none;">
+               <!--  <img src="image/welcome3.jpg" class="imgdivA"></img> -->
+            </div>
+            <div id="img4" class="imgdiv" style="display:none;">
+               <!--  <img src="image/welcome4.jpg" class="imgdivA"></img> -->
+            </div>
+        </div>
+        <div class="nodes">
+            <span id="node0" class="nodesA nodeshover" index="0"></span>
+            <span id="node1" class="nodesA" index="1"></span>
+            <span id="node2" class="nodesA" index="2"></span>
+            <span id="node3" class="nodesA" index="3"></span>
+            <span id="node4" class="nodesA" index="4"></span>
+        </div>
+	</div>
+	<div class="msg_main">
+		<div class="msg_top">
+			<div class="msg_t1 msg_t0">
+				<div class="msg_bt">
+					<span class="msg_bt_ms">公司简介</span>
+				</div>
+				<div class="msg_t_nr">
+					<div class="msg_t_tpp0">
+						<div class="msg_t_tp0"></div>
+					</div>
+					<div class="msg_t_nrs">
+						<p id="gsjj" class="msg_t_p"></p>
+						<span class="msg_t_span">[查看详情]</span>
+					</div>
+				</div>
+			</div>
+			<div class="msg_t2 msg_t0">
+				<div class="msg_bt">
+					<span class="msg_bt_ms">行政公告</span>
+					<span class="msg_bt_more">More</span>
+				</div>
+				<div id="xzgg" class="msg_t_nr">
+				</div>
+			</div>
+			<div class="msg_t3 msg_t0">
+				<div class="msg_bt">
+					<span class="msg_bt_ms">联系我们</span>
+				</div>
+				<div class="msg_t_nr">
+					<div class="msg_t_tpp0">
+						<div class="msg_t_tp1"></div>
+					</div>
+					<div class="msg_t_lx">
+						<span class="msg_t_gs">光大环保能源（寿光）有限公司</span>
+						<span class="msg_t_dz">公司地址：寿光市渤海工业园北海路指挥部办公楼203、303室</span>
+						<span class="msg_t_dh">电话：<span class="msg_t_dc">0536-8888888</span></span>
+						<span class="msg_t_cz">传真：<span class="msg_t_dc">0536-8888888</span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="msg_middle">
+			<div class="msg_m1 msg_m0">
+				<div class="msg_bt">
+					<span class="msg_bt_ms">成果展示</span>
+					<span class="msg_bt_more">More</span>
+				</div>
+				<div class="msg_t_nr">
+					<div class="msg_m_nr0">
+						<div class="msg_m_cg">
+							<div class="msg_m_cgimg msg_m_cgimg0"></div>
+						</div>
+						<span class="msg_m_p0">焚烧发电系统</span>
+						<p class="msg_m_p1">公司采用国际先进的顺推机械炉排垃圾焚烧炉+中压自然循环余热锅炉，共配置两台300吨/日的垃圾焚烧炉和一台12MW汽轮发电机组，日焚烧处理城市生活垃圾600吨。</p>
+						<span class="msg_m_span">[查看详情]</span>
+					</div>
+					<div class="msg_m_nr0">
+						<div class="msg_m_cg">
+							<div class="msg_m_cgimg msg_m_cgimg1"></div>
+						</div>
+						<span class="msg_m_p0">垃圾焚烧炉排炉及自控系统</span>
+						<p class="msg_m_p1">自主研发 250~750 吨系列新型排炉技术，已先后在江阴、镇江、宿迁、苏州、南京和宁波等垃圾焚烧发电项目上应用，并打开对外销售市场，实现了该技术的国产化，更适合国内生活来垃圾的特点。</p>
+						<span class="msg_m_span">[查看详情]</span>
+					</div>
+				</div>
+			</div>
+			<div class="msg_m2 msg_m0">
+				<div class="msg_bt">
+					<span class="msg_bt_ms">荣誉展示</span>
+					<span class="msg_bt_more">More</span>
+				</div>
+				<div class="msg_m_nrlist">
+					<div class="msg_m_nrlist0">
+						<div class="msg_m_nrlimg">
+							<img src="image/ry0.jpg" class="msg_m_imgdivA"></img>
+						</div>
+						<div class="msg_m_nrlimg">
+							<img src="image/ry1.jpg" class="msg_m_imgdivA"></img>
+						</div>
+						<div class="msg_m_nrlimg">
+							<img src="image/ry2.jpg" class="msg_m_imgdivA"></img>
+						</div>
+						<div class="msg_m_nrlimg">
+							<img src="image/ry3.jpg" class="msg_m_imgdivA"></img>
+						</div>
+						<div class="msg_m_nrlimg">
+							<img src="image/ry4.jpg" class="msg_m_imgdivA"></img>
+						</div>
+						<div class="msg_m_nrlimg">
+							<img src="image/ry5.jpg" class="msg_m_imgdivA"></img>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

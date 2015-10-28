@@ -1,0 +1,242 @@
+/**
+*	@author	DengChao
+*	@Time	2014/07/31
+*	@Version v2.0
+*	@Description	弹出框扁平化
+*/
+
+/*正常框的标题颜色值*/
+.warnT{
+	background: #538cd5;
+}
+/*警告框标题颜色*/
+.errorT{
+	background: #DF0000;
+}
+/*弹框的文字部分左右两边的边框*/
+/* #alertP { */
+/* 	border-right: 1px solid #ccc; */
+/* 	border-left:1px solid #ccc; */
+/* } */
+/* #alertBtns { */
+/* 	border-right: 1px solid #ccc; */
+/* 	border-left:1px solid #ccc; */
+/* } */
+/* #alertM{ */
+/* 	border-bottom:1px solid #ccc; */
+/* } */
+
+
+
+/*添加面板弹出框的样式设置*/
+#alertM,#alertT,#alertR,#alertP,#alertBtns {
+	margin: 0;
+	font-size: 14px;
+	line-height: 30px;
+	font-family: arial, sans-serif;
+	text-align: left;
+	padding: 3px;
+}
+
+#alertR,#alertBtns a {
+	text-decoration: none;
+}
+
+#hbg {
+	height: 100% ;
+	position: fixed;
+	background: #000;
+	z-index: 9998;
+	top: 0;
+	left: 0;
+	bottom:0;
+	right:0;
+	display: none;
+	
+}
+
+#alertM {
+	position: absolute;
+	top: 200px;
+	background: #fff;
+	z-index: 9999;
+	width: 400px;
+	height: auto;
+	left: 600px;
+	display: none;
+	/* box-shadow: 0 0 17px 2px rgba(130,130,130, 1); */
+}
+
+#alertT {
+	color: #fff;
+    padding: 0 10px;
+	border-radius: 4px;
+/* 	margin: 4px; 
+ 	background: #0398e1;  
+	 text-shadow: 0px 1px 1px #000; 
+ 	background-image: -moz-linear-gradient(top, #03b3f6, #0374c6);
+  	background-image: -moz-linear-gradient(top, #03b3f6, #407FFF);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #407FFF),
+		color-stop(1, #0374c6) );
+	border: 1px #16a8fc solid; *
+	border-radius: 8px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8); */
+}
+.warnT{
+	font-weight: 200;
+}
+.errorT{
+	font-weight: 300;
+}
+
+#alertP {
+	padding-left: 60px;
+}
+.warnP{
+	background: url(image/hint.png) no-repeat 15px 3px;
+}
+.errorP{
+	background: url(image/warn.png) no-repeat 15px 3px;
+}
+
+#alertR {
+	color: #ffffff;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin: -30px 8px 0 0;
+    padding: 0px;
+	-webkit-transform: rotate(-360deg);
+	-moz-transform: rotate(-360deg);
+	-o-transform: rotate(-360deg);
+	transform: rotate(-360deg);
+	-webkit-transition: -webkit-transform 0.6s ease-out;
+	-moz-transition: -moz-transform 0.6s ease-out;
+	-o-transition: -o-transform 0.6s ease-out;
+	transition: transform 0.6s ease-out;
+}
+
+#alertR:hover {
+	color: #fff;
+}
+
+#alertR:active {
+	text-shadow: 0px 0px 1px #000;
+}
+
+#alertBtns {
+	text-align: right;
+}
+
+#alertBtns a  {
+	border: 1px solid #C4C4C4 !important;
+	border-radius: 4px;
+	color: #000000;
+	display: inline-block;
+	line-height: 27px;
+	margin: 8px;
+	padding: 0 24px;
+	background: #fafafa; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fafafa 0%, #f0f0f0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(100%,#f0f0f0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fafafa 0%,#f0f0f0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fafafa 0%,#f0f0f0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fafafa 0%,#f0f0f0 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fafafa 0%,#f0f0f0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-9 */
+}
+/*警告框 按钮样式*/
+#waringBtn{
+	border: 1px #FE0000 solid!important;
+}
+
+#alertBtns a:hover {
+	/*background:#E9EFF5;
+	box-shadow: 0px 0px 3px 1px rgba(4,179,246, 0.4);  
+	background:#E0E8ED;*/
+	background: #fafafa;
+}
+
+#alertBtns a:active {
+	border: 1px #558DB2 solid;
+}
+
+.mgbox_div {
+	color: red;
+	font-size: 12px;
+	display: inline;
+}
+
+.addwiget_id {
+	width: auto;
+}
+
+#top_setdiv{
+    background-color: #DBEDF5;
+    border: 1px solid #A9C1C1;
+    position: fixed;
+    top: -40px;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+}
+.setLayout{
+    text-align: left;
+    font-size: 12px;
+    height: auto;
+    width: 80px;
+    background-color: #DBEDF5;
+    cursor: pointer;
+    padding: 0 2px;
+    position: fixed;
+    top: 0;
+    right: 80px;
+    z-index: 1;
+}
+.setLayout img{
+	width: 16px;
+	height: 16px;
+	border: none;
+}
+.setLayout span{
+    position: relative;
+    top: -3px;
+    left: 3px;
+}
+.setLayout :hover{
+    color: #FFF;
+}
+.fieldset_div{
+    border: 0 none;
+    padding: 10px 0 5px;
+    border-radius: 3px 3px 3px 3px;
+    width: auto; 
+    text-align: center; 
+    height: 20px
+}
+.widget-menu .widget-closelink{
+    font-size: 24px;
+    position: relative;
+    top: -3px;
+}
+.widget-menu .disable_close{
+    font-size: 24px;
+    color: #CBCBCB;
+    position: relative;
+    top: -3px;
+}
+.widget-menu .widget-collapselink{
+    position: relative;
+    top: -8px;
+}
+.at_ns{
+	font-size: 12px;
+    line-height: 16px;
+    padding-left: 10px;
+}
+.at_ns_box{
+	vertical-align:middle;
+}
+.at_ns_lab{
+	vertical-align:middle;
+}

@@ -1,0 +1,43 @@
+.ac_results {
+	background-color: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    border-radius: 0 0 6px 6px;
+    overflow: hidden;
+    padding: 0;
+    z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	cursor: pointer;
+    display: block;
+    font: menu;
+    font-family: "微软雅黑";
+    font-size: 13px;
+    line-height: 26px;
+    margin: 0;
+    overflow: hidden;
+    padding: 2px 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #3399FF;
+	color: white;
+}

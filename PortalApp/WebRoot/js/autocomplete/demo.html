@@ -1,0 +1,88 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>jQuery Autocomplete Plugin 自定义搜索结果</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type='text/javascript' src='jquery.autocomplete.js'></script>
+<link rel="stylesheet" type="text/css" href="jquery.autocomplete.css" />
+
+<script type="text/javascript">
+var stockInfoJson = [
+	{ name: "深发展A", code: "000001",spell:"sfza" },
+	{ name: "万科A", code: "000002",spell:"wka"},
+	{ name: "ST 国 农", code: "000004",spell:"stgn" },
+	{ name: "世纪星源", code: "000005",spell:"sjxy" },
+	{ name: "深振业A", code: "000006" ,spell:"szya"},
+	{ name: "ST 达 声", code: "000007" ,spell:"stds"},
+	{ name: "ST宝利来", code: "000008" ,spell:"stbll"},
+	{ name: "中国宝安", code: "000009" ,spell:"zgba"},
+	{ name: "S ST华新", code: "000010" ,spell:"ssthx"},
+	{ name: "山航B", code: "200152" ,spell:"shb"},
+	{ name: "*ST帝贤B", code: "200160" ,spell:"stdxb"},
+	{ name: "雷伊B", code: "200168" ,spell:"lyb"},
+	{ name: "宝石B", code: "200413",spell:"bsb" },
+	{ name: "小天鹅B", code: "200418" ,spell:"xteb"},
+	{ name: "粤高速B", code: "200429" ,spell:"agsb"},
+	{ name: "宁通信B", code: "200468" ,spell:"ltxb"},
+	{ name: "晨鸣B", code: "200488" ,spell:"cmb"},
+	{ name: "珠江B", code: "200505" ,spell:"zjb"},
+	{ name: "闽灿坤B", code: "200512" ,spell:"mskb"},
+	{ name: "华电国际", code: "600027" ,spell:"hdgj"}
+];
+
+$(function(){
+	$("#suggest1").autocomplete(stockInfoJson, {
+		minChars: 1,
+		matchCase:false,//不区分大小写
+		autoFill: false,
+		max: 10,
+		formatItem: function(row, i, max,term) {
+			var v = $("#suggest1").val();		
+			return  row.name + " (" + row.code + ")";
+			if(row.code.indexOf(v) == 0 || row.spell.indexOf(v)==0)
+			{
+				return  row.name + " (" + row.code + ")";
+			}
+			else
+				return false;
+		},
+		formatMatch: function(row, i, max) {
+			return row.name + " (" + row.code+")";
+		},
+		formatResult: function(row) {
+			return row.code;
+		},
+		reasultSearch:function(row,v)//本场数据自定义查询语法 注意这是我自己新加的事件
+		{
+			//自定义在code或spell中匹配
+			if(row.data.code.indexOf(v) == 0 || row.data.spell.indexOf(v) == 0)
+			{
+				return row;
+			}
+			else
+				return false;			
+		}
+	});
+});
+
+</script>
+<body>
+<h1>jquery.autocomplete.js 扩展自定义查询方法</h1>
+<p>
+楚旋--博客园<a href='http://eflylab.cnblogs.com' target='_blank'>http://eflylab.cnblogs.com</a> 本文链接
+<a href='http://www.cnblogs.com/eflylab/archive/2009/09/18/1569043.html' target='_blank'>jquery.autocomplete.js 插件的自定义搜索规则</a>
+</p>
+<p>
+			<label>StockInfo(local):</label>
+			<input type="text" id="suggest1" />
+</p>
+
+</body>
+
+</html>

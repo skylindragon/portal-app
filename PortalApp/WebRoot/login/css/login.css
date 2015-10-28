@@ -1,0 +1,237 @@
+body {
+    background-color: #FFFFFF !important;
+    min-height: 555px;
+}
+
+#main {
+    background: url("../images/welcome.jpg") no-repeat scroll 0 0 / 1390px auto rgba(0, 0, 0, 0);
+    height: 100%;
+    min-width: 1000px;
+    position: relative;
+    width: 100%;
+}
+
+#maindiv {
+    background-repeat: no-repeat no-repeat;
+    margin: 0 auto;
+    min-height: 555px;
+    min-width: 1000px;
+    position: relative;
+    width: 1000px;
+}
+
+#footer {
+    bottom: 50px;
+    color: #FFFFFF;
+    height: 22px;
+    min-width: 1000px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+#logo {
+    height: 65px;
+    left: 142px;
+    position: absolute;
+    top: 10px;
+    width: 200px;
+}
+#logoimg {
+    float: left;
+    position: relative;
+}
+
+#logoname {
+    float: left;
+    margin-left: 7px;
+    margin-top: 6px;
+    position: relative;
+}
+
+.logospanone {
+    color: #CDECA9;
+    font-family: "寰蒋闆呴粦";
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.logospantwo {
+    color: #609E1A;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#mainlogin {
+    border-radius: 3px;
+    height: 327px;
+    margin: 0 auto;
+    position: relative;
+    top: 116px;
+    width: 423px;
+}
+
+#mainhead {
+    border-radius: 6px 6px 0 0;
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+
+#mainmiddle {
+    height: 251px;
+    position: absolute;
+    top: 92px;
+    width: 100%;
+}
+#ts {
+    color: #FB5959;
+    font-family: arial;
+    font-size: 14px;
+    left: 36px;
+    position: relative;
+    top: 22px;
+    width: 236px;
+}
+.mlogint{
+	color: #FFFFFF;
+    font-family: "楷体";
+    font-size-adjust: none;
+    font-style: inherit;
+    font-weight: bold;
+    line-height: 1em;
+    position: absolute;
+}
+
+.mlogintext {
+    color: #58CF2B;
+    font-size: 37px;
+    left: 130px;
+    top: 2px;
+}
+
+.mlogintext1 {
+    color: #1DE71B;
+    font-size: 26px;
+    left: 35px;
+    top: 36px;
+}
+.un{
+	background-color: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 0;
+    clear: both;
+    height: 35px;
+    line-height: 42px;
+    margin-left: 36px;
+    position: relative;
+    width: 367px;
+}
+.uname {
+    
+}
+
+.uinput {
+    border: medium none;
+    border-radius: 0;
+    font-family: "寰蒋闆呴粦";
+    font-size: 16px;
+    height: 100%;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.ico-uid {
+    background: url("../images/user.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 23px;
+    margin-left: 8px;
+    margin-top: 8px;
+    position: absolute;
+    width: 23px;
+}
+
+.upassword {
+    margin-top: 18px;
+}
+
+.ico-uid-password {
+    background: url("../images/lock.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 23px;
+    margin-left: 8px;
+    margin-top: 8px;
+    position: absolute;
+    width: 23px;
+}
+
+.ubutton {
+    left: 36px;
+    position: relative;
+    top: 49px;
+    width: 368px;
+}
+
+.subbutton {
+    background: none repeat scroll 0 0 #4CC11F;
+    border: medium none rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    height: 37px;
+    text-align: center;
+    width: 100%;
+}
+.subbutton:hover{
+	background:#44AB1D;
+}
+
+.yzm {
+    left: 36px;
+    position: relative;
+    top: 18px;
+    width: 390px;
+}
+
+#checkCode {
+    border: 1px solid #CFCFCF;
+    height: 38px;
+    width: 251px;
+}
+
+#CreateCheckCode {
+    height: 35px;
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 99px;
+}
+
+.dltools {
+    color: #FFFFFF;
+    font-family: "瀹嬩綋";
+    font-size: 12px;
+    left: 33px;
+    position: relative;
+    top: 24px;
+}
+
+#autologin {
+    left: 0;
+    position: absolute;
+}
+
+#passzc {
+    position: absolute;
+    right: 54px;
+    top:1px;]
+}
+
+#passzc a {
+    color:#7D7C0D;
+    text-decoration: none;
+}
+
+#passzc a:hover {
+    color: #4F4F04;
+    text-decoration: underline;
+}

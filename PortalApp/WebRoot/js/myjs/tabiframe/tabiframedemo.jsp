@@ -1,0 +1,37 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>My JSP 'tabiframedemo.jsp' starting page</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<%@ include file="/common/js.jsp" %>
+   	<%@ include file="/common/css.jsp" %>
+	
+	<link rel="stylesheet" type="text/css" href="${ctx }/js/tabiframe/tabiframe.css">
+	<script type="text/javascript" src="${ctx }/js/tabiframe/tabiframe.js"></script>
+	<style type="text/css">
+	</style>
+	<script type="text/javascript">
+	</script>
+
+  </head>
+  
+  <body>
+    <div id="main">
+    	<div id="tabs"></div>
+    	
+    </div>
+  </body>
+</html>

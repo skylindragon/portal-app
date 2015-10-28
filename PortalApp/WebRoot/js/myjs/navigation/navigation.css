@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+
+#navg {
+    bottom: 0;
+    left: 120px;
+    position: absolute;
+    right: 120px;
+    top: 0;
+}
+
+.dragdiv {
+    background: none repeat scroll 0 0 #F45050;
+    border: 1px solid #F88181;
+    color: #E0DADA;
+    cursor: pointer;
+    font-family: "楷体";
+    font-size: 19px;
+    font-weight: bold;
+    height: 129px;
+    margin: 8px;
+    position: absolute;
+    width: 140px;
+}
+
+.dragcaption {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.dragcaption span {
+    display: block;
+    left: 30px;
+    position: absolute;
+    top: 50px;
+}
+
+.dragdiv .closebtn {
+    color: #FFFFFF;
+    display: none;
+    font-family: Arial;
+    font-size: 26px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    text-shadow: 0 0 3px #999999;
+    top: 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 16px;
+    z-index: 3;
+    font-weight: lighter;
+}
+.dragdiv:hover{
+	opacity: 0.8;
+	-webkit-transform:scale(1.02) translateZ(0);
+	transform:scale(1.02) translateZ(0);
+}
+.dragdiv:hover .closebtn{
+	display: block;
+}
+.closebtn:hover{
+	color:#F21F1F;
+	text-shadow: 0 0 3px #F16464;
+}

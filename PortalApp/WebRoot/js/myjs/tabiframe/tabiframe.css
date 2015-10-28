@@ -1,0 +1,193 @@
+
+#tabsul {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #0080FF;
+    box-shadow: 0 0 1px #0080FF;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 46px;
+    text-decoration: none;
+    top: 0;
+}
+.tablidefault{
+	background: none repeat scroll 0 0 #F4F4F4;
+    border-left: 1px solid #0B75A0;
+    border-radius: 8px 8px 0 0;
+    border-right: 1px solid #0B75A0;
+    border-top: 1px solid #0B75A0;
+    color: #222222;
+    cursor: pointer;
+    float: left;
+    height: 24px;
+    margin-right: 7px;
+    margin-top: 2px;
+    position: relative;
+    border-bottom:1px solid #0B75A0;
+}
+.tableliselected{
+	background: none repeat scroll 0 0 #0D8ECC;
+    color: #FFFFFF;
+}
+.tabifrmedefaule {
+    overflow: hidden;
+    position: relative;
+    width: 99.7%;
+    border: 0 solid;
+    display:none;
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.tabiframeselected{
+	display:inline-block;
+}
+
+.lidivimg {
+    float: left;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.divtext {
+    float: left;
+    margin-left: 2px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    padding-top: 5px;
+}
+
+.divbtn {
+    float: left;
+    margin-top: 5px;
+}
+#tabsul {
+    background: none repeat scroll 0 0 #272C2F;
+    border-bottom: 3px solid #767171;
+    box-shadow: none;
+    height: 28px;
+}
+
+.tablidefault {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #272C2F;
+    border-color: #272C2F #454545 #272C2F #272C2F;
+    border-image: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    color: #E7E7E7;
+    cursor: pointer;
+    float: left;
+    font-weight: lighter;
+    height: 24x;
+    margin-right: 0;
+    margin-top: 2px;
+    position: relative;
+}
+
+
+.tableliselected {
+    background: none repeat scroll 0 0 #767171;
+    border: 1px solid #767171;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+.tablidefault:last-child {
+    border-right: 0 none;
+}
+
+/* .tablidefault:after {
+    background: none repeat scroll 0 0 #F4F4F4;
+    border-radius: 0 5px 0 0;
+    border-right: 1px solid #0B75A0;
+    border-top: 1px solid #0B75A0;
+    bottom: -1px;
+    content: "";
+    position: absolute;
+    right: -0.5em;
+    top: -1px;
+    transform: skew(29deg);
+    width: 13px;
+    z-index: 0;
+    border-bottom:1px solid #0B75A0;
+} */
+
+/* .tableliselected:after {
+    background: none repeat scroll 0 0 #0D8ECC;
+    border-radius: 0 5px 0 0;
+    border-right: 1px solid #0B75A0;
+    border-top: 1px solid #0B75A0;
+    bottom: -1px;
+    content: "";
+    position: absolute;
+    right: -0.5em;
+    top: -1px;
+    -webkit-transform: skew(29deg);
+	  -moz-transform: skew(29deg);
+	  -ms-transform: skew(29deg);
+	  -o-transform: skew(29deg);
+	  transform: skew(29deg);
+    width: 13px;
+    z-index: 1;
+    border-bottom:1px solid #0B75A0;
+} */
+#closetab {
+    background: url("images/close.png") no-repeat scroll 0 0 / 10px auto rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 17px;
+    position: relative;
+    top: 3px;
+    width: 14px;
+}
+#closetab:hover{
+    background: url("images/close1.png") no-repeat scroll 0 0 / 10px auto rgba(0, 0, 0, 0);
+}
+
+.lr {
+    background: none repeat scroll 0 0 #272C2F;
+    border-bottom: 3px solid #767171;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    width: 46px;
+}
+
+.leftright {
+    border-bottom: 3px solid #767171;
+    border-left: 1px solid #767171;
+    display: none;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    transition: all 0.8s ease 0s;
+    width: 46px;
+}
+
+#toleft {
+    background: url("images/left.png") no-repeat scroll 0 0 / 24px auto rgba(0, 0, 0, 0);
+    bottom: 0;
+    left: 2px;
+    position: absolute;
+    right: 20px;
+    top: 3px;
+    cursor: pointer;
+}
+
+#toright {
+    background: url("images/right.png") no-repeat scroll 0 0 / 24px auto rgba(0, 0, 0, 0);
+    bottom: 0;
+    left: 24px;
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    cursor: pointer;
+}

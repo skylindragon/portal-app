@@ -1,0 +1,386 @@
+@CHARSET "UTF-8";
+.wel_main {
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.wel_topimg {
+    height: 330px;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+.images {
+    border: 1px solid #C2D3E5;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: url("image/welcomebg.png");
+}
+
+.nodes {
+    height: 26px;
+    left: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 263px;
+    width: 200px;
+    z-index: 2;
+}
+.imgdiv {
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+.imgdivshow {
+    z-index: 1;
+}
+
+.imgdivA {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nodesA {
+    background-image: url("image/hui.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    margin-right: 6px;
+    width: 16px;
+    cursor: pointer;
+}
+.nodesA:hover{
+    background-image: url("image/lan.png");
+}
+.nodeshover {
+    background-image: url("image/lan.png");
+}
+#img0 {
+    background-image: url("image/welcome.png");
+}
+#img1 {
+    background-image: url("image/welcome1.png");
+}
+#img2 {
+    background-image: url("image/welcome2.png");
+}
+#img3 {
+    background-image: url("image/welcome3.png");
+}
+#img4 {
+    background-image: url("image/welcome4.png");
+}
+
+
+
+.msg_main {
+    background: #FFFFFF;
+    border-color: #2E9BB4 #EFEFEF #EFEFEF;
+    border-style: solid;
+    border-width: 4px 1px 1px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -33px;
+    width: 1055px;
+    z-index: 1;
+}
+.msg_top {
+    height: 310px;
+    position: relative;
+    width: 100%;
+}
+.msg_middle {
+    height: 300px;
+    position: relative;
+    width: 100%;
+}
+.msg_t0 {
+    float: left;
+    height: 100%;
+    margin-right: 20px;
+    position: relative;
+    width: 330px;
+}
+.msg_bt {
+    border-bottom: 2px solid #E6E6E6;
+    color: #4C73C6;
+    font-size: 16px;
+    font-weight: bold;
+    left: 30px;
+    padding-bottom: 4px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+}
+.msg_t_nr {
+    bottom: 0;
+    left: 30px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 36px;
+}
+.msg_bt_ms {
+    border-bottom: 2px solid;
+    padding-bottom: 4px;
+}
+
+.msg_t_tpp0 {
+    border: 1px solid #CDCDCD;
+    height: 149px;
+    left: 0;
+    position: relative;
+    top: 9px;
+}
+
+.msg_t_tp0 {
+    background-image: url("image/gsjj.png");
+    background-repeat: no-repeat;
+    bottom: 2px;
+    left: 2px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+.msg_t_tp1 {
+    background-image: url("image/llwm.png");
+    background-repeat: no-repeat;
+    bottom: 2px;
+    left: 2px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+.msg_t_p {
+    color: #3C3C3C;
+    text-indent: 2em;
+}
+.msg_t_span {
+    bottom: 1px;
+    color: #2E5CCC;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+.msg_t_span:hover{
+	text-decoration: underline;
+}
+
+.msg_t_nrs {
+    height: 125px;
+    position: relative;
+}
+.msg_t_p {
+    bottom: 10px;
+    color: #3C3C3C;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-indent: 2em;
+    top: 1px;
+    line-height: 22px;
+}
+.msg_t_span {
+    bottom: 1px;
+    color: #4991B7;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.ggnrA {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+.ggnrmx {
+    border-bottom: 1px dashed #CDCDCD;
+    height: 18px;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+.ggnrmxA {
+    cursor: pointer;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 216px;
+    color: #3C3C3C;
+}
+.ggnrmxC {
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.ggnrmxB {
+    position: relative;
+}
+.ggnrmxA:hover{
+	color:#1D77C1;
+}
+
+.msg_t_lx {
+    height: 125px;
+    position: relative;
+    top: 14px;
+}
+
+.msg_t_lx > span {
+    color: #3C3C3C;
+    display: block;
+    margin-top: 3px;
+    position: relative;
+}
+.msg_t_gs {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.msg_t_dc {
+    color: #2E5CCC;
+}
+
+.msg_m0 {
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 513px;
+}
+
+.msg_m_nr0 {
+    height: 115px;
+    position: relative;
+    margin-top:13px;
+}
+
+.msg_m_cg {
+    border: 1px solid #CDCDCD;
+    bottom: 5px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 167px;
+}
+.msg_m_cgimg {
+    bottom: 2px;
+    left: 2px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+.msg_m_cgimg0 {
+    background-image: url("image/cgzs0.png");
+}
+.msg_m_cgimg1 {
+    background-image: url("image/cgzs1.png");
+}
+
+.msg_m_cgimg0 {
+    background-image: url("image/cgzs0.png");
+}
+
+.msg_m_p0 {
+    font-size: 15px;
+    font-weight: bold;
+    left: 181px;
+    position: relative;
+    top: 3px;
+}
+.msg_m_p1 {
+    height: 53px;
+    left: 181px;
+    overflow: hidden;
+    position: relative;
+    width: 302px;
+}
+
+.msg_m_span {
+    bottom: 9px;
+    color: #4991B7;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+.msg_m_span:hover {
+	text-decoration: underline;	
+}
+
+.msg_bt_more {
+    color: #57B347;
+    cursor: pointer;
+    font-size: 13px;
+    position: absolute;
+    right: 9px;
+    top: 6px;
+}
+.msg_bt_more:hover{
+	color:#418835;
+}
+
+.msg_m_nrlist0 {
+    height: 206px;
+    position: relative;
+    top: 20px;
+    width: 8000px;
+}
+.msg_m_nrlist {
+    bottom: 12px;
+    left: 30px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 46px;
+}
+.msg_m_nrlimg {
+    border: 1px solid #CDCDCD;
+    float: left;
+    height: 100%;
+    margin-right: 4px;
+    position: relative;
+    width: 156px;
+    cursor: pointer;
+}
+.msg_m_nrlist1 {
+    display: none;
+    position: absolute;
+}
+.msg_m_imgdivA {
+    left: 2px;
+    position: absolute;
+    top: 49px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+

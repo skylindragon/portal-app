@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasource-manager>
+  <datasource name="portal_app" caption="门户数据源" type="DBCP" maxActive="20" minIdl="1" maxIdl="5" initialSize="5" maxWait="20">
+    <database type="MySql" driver="com.mysql.jdbc.Driver">
+      <server>127.0.0.1</server>
+      <port>3306</port>
+      <instance>portal_ds</instance>
+      <user>portal</user>
+      <password>512365</password>
+    </database>
+  </datasource>
+</datasource-manager>

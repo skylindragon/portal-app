@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+#navigation {
+    bottom: 10px;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+    top: 70px;
+}

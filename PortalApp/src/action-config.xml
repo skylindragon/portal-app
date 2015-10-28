@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-config>
+  <action-list>
+    <action name="/login" class="com.tianqi.portal.action.login.LoginAction" method="">
+      <forward name="success" path="/main/main.jsp"/>
+    </action>
+    
+    <action name="/logout" class="com.tianqi.portal.action.login.LogoutAction" method="">
+      <forward name="success" path="/login/login.jsp"/>
+    </action>
+    
+    <action name="/getMenuList" class="com.tianqi.portal.action.sys.GetSystemMenu" method="">
+    </action>
+    
+  </action-list>
+</action-config>
